@@ -26,6 +26,6 @@ Console.WriteLine($"""
 
 Console.WriteLine("I'm Jason and I'm telling you Orleans is running.\nPress Enter to terminate...");
 Console.ReadLine();
-Console.WriteLine("Orleans is stopping...");
+Console.WriteLine("Orleans is stopping...\nBye");
 
 await host.StopAsync();
